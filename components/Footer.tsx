@@ -2,6 +2,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 import Link from "next/link";
+import Contact from "./ui/Contact";
 
 const Footer = () => {
   return (
@@ -14,7 +15,6 @@ const Footer = () => {
           className="w-full h-full opacity-50 "
         />
       </div>
-
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
           Ready to take <span className="text-purple">your</span> digital
@@ -24,13 +24,23 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="/Zaryab's Resume.pdf" download="resume">
-          <MagicButton
-            title="Download Resume"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
-        </a>
+        <div className="flex flex-col md:flex-row gap-5 md:gap-10">
+          <a href="/Zaryab's Resume.pdf" download="resume">
+            <MagicButton
+              title="Download Resume"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
+
+          <a href="mailto:zaryabimran222+designer@gmail.com">
+            <MagicButton
+              title="Let's get in touch"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
+        </div>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">

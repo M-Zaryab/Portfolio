@@ -69,6 +69,23 @@ export const gridItems = [
   },
 ];
 
+export const uiprojects = [
+  {
+    id: 1,
+    title: "Krypto Project",
+    img: "/krypto.png",
+    iconLists: [],
+    link: "https://krypto.figweb.site/",
+  },
+  {
+    id: 1,
+    title: "Digital Agency",
+    img: "/digital-agency.png",
+    iconLists: [],
+    link: "https://digital-agency.figweb.site/",
+  },
+];
+
 export const projects = [
   {
     id: 1,
@@ -84,7 +101,8 @@ export const projects = [
     id: 2,
     title: "Music Academy",
     des: "A web app for a company to showcase its courses. ",
-    img: "/music-academy.png",
+    // img: "/music-academy.png",
+    img: "/music.png",
     // iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     iconLists: [],
     link: "https://musicacademy-by-zaryab.vercel.app/",
@@ -92,7 +110,7 @@ export const projects = [
   {
     id: 3,
     title: "Brainwave",
-    des: "A beautiful minimilistic UI",
+    des: "A beautiful minimilistic UI of an AI company.",
     img: "/Brainwave.png",
     // iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     iconLists: [],
